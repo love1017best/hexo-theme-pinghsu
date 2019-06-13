@@ -103,20 +103,20 @@ enableDirectory: true
 # theme：主题样式css名称，默认使用atom-one-dark主题
 highlight:
   enable: true
-  theme: atom-one-dark
+  theme: monokai
 
 # 底部彩色动态词语配置
 # 一个词语一行
 animateWords:
   - Hexo
-  - Theme
   - Pinghsu
+  - Iifa Tree
 
 # 不蒜子网站统计
-busuanzi: true
+busuanzi: false
 
 # 网站点击红心效果
-clickLove: true
+clickLove: false
 
 # 百度统计id，填写复 hm.js? 后面那串统计脚本 id
 baiduAnalytics:
