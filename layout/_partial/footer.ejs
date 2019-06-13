@@ -20,14 +20,15 @@
                         <% } %>
                     </a>
 					<div class="info-text">
-                        <p id="chakhsu"></p>
-                    	<p>Theme is <a href="https://github.com/cccyb/hexo-theme-pinghsu" target="_blank">Pinghsu</a> by <a href="<%= config.url %>" target="_blank"><%= config.author %></a></p>
-						<p>Powered by <a href="https://hexo.io/" target="_blank" rel="nofollow">hexo</a></p>
+                        <!-- <p id="chakhsu"></p> -->
+                    	<p>Theme is <a href="https://github.com/cccyb/hexo-theme-pinghsu" target="_blank">Pinghsu</a></p>
+                        <p>走遍千山万水，还想在此重逢</p>
+                        <p>Powered by <a href="<%= config.url %>" target="_blank"><%= config.author %></a></p>
                         <p style="margin-top: 10px">站点总字数：<%= totalcount(site) %></p>
-                        <% if (theme.busuanzi) { %>
+                        <!-- <% if (theme.busuanzi) { %>
                         <p><span id="busuanzi_container_site_pv" style='display:none'><%- __('views.text') %> <span id="busuanzi_value_site_pv"></span> <%- __('views.unit') %></span></p>
                         <p><span id="busuanzi_container_site_uv" style='display:none'><%- __('vistors.text') %> <span id="busuanzi_value_site_uv"></span> <%- __('vistors.unit') %></span></p>
-                        <% } %>
+                        <% } %> -->
                         <% if (theme.beian) { %>
                         <p style="margin-top: 10px"><a href="http://www.miibeian.gov.cn"><%= theme.beian %></a></p>
                         <% } %>
@@ -234,8 +235,8 @@ MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 <% if (theme.busuanzi) { %>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <% } %>
-<% if (!theme.enablePjax && theme.clickLove) { %>
-<%- js('/js/love.js') %>
+<!-- <% if (!theme.enablePjax && theme.clickLove) { %>
+<%- js('/js/love.js') %> -->
 <% } %>
 <% if (theme.valine.enable && !theme.enablePjax) { %>
 <script>

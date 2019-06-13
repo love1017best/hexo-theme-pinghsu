@@ -7,15 +7,15 @@
 headerLogoUrl: # 头部右上角logo图片地址，留空则取网站标题 
 footerLogoUrl: # 底部左下角logo图片地址，留空则取网站标题
 favicon: /images/favicon.png # favicon地址，留空则不设favicon
-iosicon: /images/apple-touch-icon.png # apple touch icon 地址，留空则不设 apple touch icon
-since: 2016 # 站点起始时间
+iosicon: /images/favicon.png # apple touch icon 地址，留空则不设 apple touch icon
+since: 2010 # 站点起始时间
 
 # Menu Setting 菜单设置
 menu:
-  categories: /categories
-  tags: /tags
-  archives: /archives
-  links: /links
+  # categories: /categories
+  # tags: /tags
+  # archives: /archives
+  # links: /links
   about: /about
 
 # Archive Setting 归档页设置
@@ -24,8 +24,8 @@ archive: year
 
 # Social Setting 社交设置
 social:
-  知乎: 
-  Github: 
+  RSS: /atom.xml
+  TWITTER: https://twitter.com/love1017best
 
 # ===========================================
 # Function Setting 功能设置
@@ -84,7 +84,7 @@ colorBgPosts: true
 
 # 文章题图设置
 # 启用则在文章页顶部显示缩略图
-showPostThumb: true
+showPostThumb: false
 
 # 默认缩略图
 defaultThumb: 
@@ -127,9 +127,9 @@ beian:
 # valine评论系统
 # 配置详情参考：https://valine.js.org/configuration.html
 valine:
-  enable: false # 是否启用
-  appId: # 应用AppID
-  appKey: # 应用AppKey
+  enable: enable # 是否启用
+  appId: tx45B726pL0RmCTHG335fU83-gzGzoHsz
+  appKey: Uh3potIItHbtubdoBz1LB1QB
   placeholder: Your commnet here. Be cool. # 输入框默认显示文本
   pageSize: 10 # 每页评论数量
   avatar: mp # 头像类型
