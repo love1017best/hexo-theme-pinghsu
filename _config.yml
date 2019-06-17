@@ -139,8 +139,8 @@ valine:
 # 二维码图片放置在主题目录下的/source/imagse/
 # example：/images/wechat.jpg
 reward:
-  enable: false # 是否启用
-  text: 如果我的文章对你有很大帮助，那么不妨 # 打赏文案
+  enable: true # 是否启用
+  text:  # 打赏文案
   wechat: /images/wechat.jpg # 微信支付二维码地址
   alipay: /images/alipay.jpg # 支付宝二维码地址
 
