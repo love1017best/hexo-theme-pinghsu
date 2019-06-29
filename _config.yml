@@ -13,14 +13,14 @@ since: 2010 # 站点起始时间
 # Menu Setting 菜单设置
 menu:
   # categories: /categories
-  # tags: /tags
+  tags: /tags
   # archives: /archives
   # links: /links
   about: /about
 
 # Archive Setting 归档页设置
 # month: 按月份归档，year: 按年份归档，默认按月份归档
-archive: year
+archive: month
 
 # Social Setting 社交设置
 social:
