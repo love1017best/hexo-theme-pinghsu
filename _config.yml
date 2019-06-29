@@ -133,7 +133,7 @@ valine:
   placeholder: Your commnet here. Be cool. # 输入框默认显示文本
   pageSize: 10 # 每页评论数量
   avatar: mp # 头像类型
-  visitor: true # 文章阅读量统计
+  visitor: false # 文章阅读量统计
 
 # 打赏配置
 # 二维码图片放置在主题目录下的/source/imagse/
